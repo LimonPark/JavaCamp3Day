@@ -14,7 +14,8 @@ public class Main {
 
         ProductManager productManager = new ProductManager(new HibernateProductDao(), loggers);
         productManager.add(product1);
-
+        System.out.println("Test text");
     }
+
 
 }
